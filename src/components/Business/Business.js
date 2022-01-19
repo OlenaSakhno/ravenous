@@ -23,6 +23,7 @@ class Business extends React.Component{
                 <h2>{business.name}</h2>
                 <div className="Business-information">
                     <div className="Business-address">
+                    <h3>Business</h3>
                     <p>{business.address}y</p>
                     <p>{business.city}</p>
                     <p>{business.zipCode}</p>
